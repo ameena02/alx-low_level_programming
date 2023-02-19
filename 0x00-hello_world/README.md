@@ -6,3 +6,4 @@ a program that prints a sentence
 a C program that prints sentence using printf
 C program that prints the size of various types on the computer it is compiled and run on
 script that generates the assembly code (Intel syntax) of a C code and save it in an output file
+C program that prints exactly followed by a new line, to the standard error
