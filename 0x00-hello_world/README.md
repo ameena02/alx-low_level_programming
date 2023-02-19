@@ -4,3 +4,4 @@ generates the assembly code of a c code and save it in an output file
 compiles a c file and creates an executable named cisfun
 a program that prints a sentence
 a C program that prints sentence using printf
+C program that prints the size of various types on the computer it is compiled and run on
