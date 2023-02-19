@@ -12,6 +12,6 @@ int main(void)
 	long int d;
 	float e;
 
-	printf("size of int: %d size of char: %c size of unsigned char: %c size of long int: %d size of float: %f",&a,&b,&c,&d,&e );
+	printf("size of int: %d size of char: %c size of unsigned char: %c size of long int: %d size of float: %f", &a, &b, &c, &d, &e);
 	return (o);
 }
