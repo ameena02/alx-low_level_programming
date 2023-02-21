@@ -1,15 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - Entry point
+ *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char low;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
 		putchar('\n');
 	return (0);
 }
