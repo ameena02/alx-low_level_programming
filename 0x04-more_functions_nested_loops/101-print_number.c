@@ -13,14 +13,14 @@ void print_number(int n)
 	else if (n < 0)
 	{
 		_putchar('-');
-		print_integer(n * -1);
+		print_number(n * -1);
 	}
 	else
-		print_integer(n);
+		print_number(n);
 }
 
 /**
- * print_integer - A function to priting n
+ * print_integer - A function to printing n
  * @m: an input unsigned integer
  * Return: Nothing
  */
