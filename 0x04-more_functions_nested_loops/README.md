@@ -7,3 +7,4 @@ a function that draws a straight line in the  erminal
 a function that draws a diagonal line on the terminal
 a function that prints square followed by a new line
 program that prints the numbers from 1 to 100, followed by a new line
+a function that prints a triangle, followed by a new line
