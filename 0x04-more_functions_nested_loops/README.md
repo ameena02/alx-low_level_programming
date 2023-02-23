@@ -9,3 +9,4 @@ a function that prints square followed by a new line
 program that prints the numbers from 1 to 100, followed by a new line
 a function that prints a triangle, followed by a new line
 a program that finds and prints the largest prime factor of the number
+a function that prints an integer
