@@ -1,11 +1,5 @@
 #include "main.h"
-/**
- * print_number - a function that prints an integer
- * @n: input
- * Return: inputted integer
- *
- **/
-void print_integer(int m);
+void print_number(int m);
 
 /**
  * print_number - a function that prints an integer.
@@ -30,7 +24,7 @@ void print_number(int n)
  * @m: an input unsigned integer
  * Return: Nothing
  */
-void print_integer(int m)
+void print_number(int m)
 {
 	int i = 1000000000;
 
