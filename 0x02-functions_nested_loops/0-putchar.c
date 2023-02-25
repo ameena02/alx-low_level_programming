@@ -6,8 +6,7 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+int _putchar(char c)
 {
-	write ("_putschar\n");
-	return (0);
+	return (write(1, &c, 1));
 }
