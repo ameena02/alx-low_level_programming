@@ -5,3 +5,4 @@ a function that checks for lowercase characters
 a function that checks for alphabetic character
 a function that fix the sign of a number
 a function that prints the last digit of a number
+a function that computes the abs value of an integer
