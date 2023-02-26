@@ -9,3 +9,4 @@ a function that computes the abs value of an integer
 a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
  a function that prints the 9 times table, starting with 0
 a function that adds two integers and returns the result
+a function that prints all natural numbers from n to 98, followed by a new line
