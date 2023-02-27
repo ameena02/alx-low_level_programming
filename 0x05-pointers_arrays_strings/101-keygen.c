@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -7,6 +8,10 @@
  */
 int main(void)
 {
+//*length of the password to be generated
+
+	int N = 10;
+	randomPasswordGeneration(N);
 
 	return (0);
 }
