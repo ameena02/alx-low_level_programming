@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * wildcmp - A function that compares two strings
- * @s1: First input string
- * @s2: Second input string
- * Return: 1 if strings identical and 0 in otherwise
+ * wildcmp - Entry Point
+ * @s1: input
+ * @s2: input
+ * Return: 0
  */
 int wildcmp(char *s1, char *s2)
 {
