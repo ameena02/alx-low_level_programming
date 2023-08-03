@@ -1,9 +1,8 @@
 #include "lists.h"
 
 /**
- * print_list_rec - prints all the elements of a listint_t in aloop.
+ * print_listint_safe - prints all the elements of a listint_t in aloop.
  * @head: points to list.
- * @n: number of nodes acumlated as param.
  * Return: number of nodes.
  */
 size_t print_listint_safe(const listint_t *head)
