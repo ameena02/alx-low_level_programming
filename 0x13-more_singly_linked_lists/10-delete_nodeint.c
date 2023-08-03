@@ -9,26 +9,34 @@
 * Description: Write a function that deletes the node at index
 * Return: 1 if it succeeded, -1 if it failed
 */
-
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
-
 {
-	listint_t *tmp, *del_node;
+	listint_t *temp = *head;
+	listint_t *current = NULL;
 	unsigned int i = 0;
 
 	if (*head == NULL)
 		return (-1);
 
-	tmp = *head;
-
-	while (tmp != NULL && i < (index - 1))
+	if (index == 0)
 	{
-		tmp = tmp->next;
+		*head = (*head)->next;
+		free(temp);
+		return (1);
+	}
+
+	while (i < index - 1)
+	{
+		if (!temp || !(temp->next))
+			return (-1);
+		temp = temp->next;
 		i++;
 	}
 
-	del_node = tmp->next;
-	tmp->next = del_node->next;
-	free(del_node);
+
+	current = temp->next;
+	temp->next = current->next;
+	free(current);
+
 	return (1);
 }
