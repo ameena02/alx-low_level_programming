@@ -3,7 +3,7 @@
  * sum_dlistint_rec - sum node values of double linked list recursively.
  * @head: pointer to list.
  * @sum: sum of data in node.
- * Return: sum. 
+ * Return: sum.
  */
 int sum_dlistint_rec(dlistint_t *head, int sum)
 {
